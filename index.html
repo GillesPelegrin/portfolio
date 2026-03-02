@@ -1,148 +1,301 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="stylesheet.css" />
-    <meta name="viewport" content="width=device-width" />
+<html lang="nl" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gilles Pelegrin | Full Stack Developer</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div class="container">
-      <div class="top-section">
-        <div class="name-logo-group">
-          <div class="Name">
-            <h1>Gilles Pelegrin</h1>
-          </div>
-          <div class="logo">
-            <svg
-              width="48"
-              height="48"
-              viewBox="0 0 48 48"
-              fill="currentColor"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M22.4396 2.22431C22.2992 2.45163 26.1591 4.92454 31.0166 7.71986L39.8491 12.8024V21.9433V31.0836L36.4528 33.0267C34.5849 34.0959 33.0566 35.1292 33.0566 35.3235C33.0566 36.3899 34.8136 36.0104 37.8177 34.2956L41.1786 32.3774L41.1894 21.9623L41.2003 11.5472L32.712 6.67925C24.5493 1.9979 22.9961 1.32408 22.4396 2.22431ZM19.4848 4.05782C19.1185 4.28967 18.9487 4.60891 19.1076 4.76786C19.2666 4.9268 23.1324 7.23035 27.6983 9.8871L36 14.717V21.9428V29.1682L32.88 31.0053C31.1642 32.0151 29.7523 33.043 29.7423 33.2889C29.7016 34.3218 31.3906 33.8966 34.6044 32.0649L38.0282 30.1132L38.0278 21.9623V13.8113L29.2239 8.71699C24.3817 5.91533 20.3593 3.62582 20.2854 3.62944C20.2116 3.63352 19.8512 3.82597 19.4848 4.05782ZM15.6349 6.31971C15.3224 6.82552 15.1911 6.73993 25.0189 12.4383L32.6038 16.8358V21.9718V27.1082L29.203 29.0427C26.2533 30.7209 25.8883 31.0637 26.4503 31.6257C27.0122 32.1876 27.5683 32.002 30.6435 30.2255L34.1887 28.1778V21.9532V15.7291L25.8113 10.8285C17.678 6.07065 16.195 5.41359 15.6349 6.31971ZM9.73586 9.5914C7.99246 10.6297 6.41118 11.6984 6.2219 11.966C6.03261 12.2337 5.93073 16.896 5.99548 22.3263L6.11322 32.1999L14.8365 37.2231C22.1054 41.4086 23.7206 42.1743 24.5266 41.8148C25.3689 41.4389 24.3451 40.718 16.5958 36.2309L7.69812 31.0791V21.9107V12.7426L11.0943 10.8679C12.9623 9.83684 14.4906 8.82567 14.4906 8.62054C14.4906 8.33254 13.4305 7.68589 12.9817 7.70039C12.9401 7.70174 11.4793 8.55261 9.73586 9.5914ZM12.7993 11.8854L9.52303 13.8113L9.52529 21.9623L9.5271 30.1132L18.3333 35.199C26.3017 39.8011 28.5283 40.7153 28.5283 39.3863C28.5283 39.1848 24.6616 36.8119 19.9354 34.114L11.343 29.2076L11.3402 21.9623L11.338 14.717L14.5716 12.9057C16.3499 11.9094 17.8234 10.8906 17.846 10.6415C17.942 9.57691 15.8491 10.0931 12.7993 11.8854ZM16.6193 13.8299L13.1067 15.8862L13.2326 22.0098L13.3585 28.1334L21.8264 33.0856C26.4838 35.8094 30.5593 38.0346 30.883 38.0309C33.3238 38.002 32.0201 36.9292 23.7903 32.1949L14.9434 27.106V21.97V16.834L18.3048 14.8741C20.8537 13.3879 21.5516 12.7766 21.1925 12.3442C20.5277 11.5431 20.5236 11.5445 16.6193 13.8299Z"
-                fill="white"
-              />
-            </svg>
-          </div>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0/0/32/32'%3E%3Crect width='32' height='32' rx='8' fill='%23FDFBF7'/%3E%3Ctext x='50%25' y='55%25' dominant-baseline='middle' text-anchor='middle' fill='%232D3A30' font-family='serif' font-weight='bold' font-size='20'%3EG%3C/text%3E%3C/svg%3E">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,700;1,700&display=swap"
+          rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        :root {
+            --color-terracotta: #C05746;
+            --color-forest-green: #2D3A30;
+            --color-cream: #FDFBF7;
+            --nav-height: 88px;
+            --nav-height-scrolled: 72px;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: var(--nav-height-scrolled);
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--color-cream);
+            color: var(--color-forest-green);
+            margin: 0;
+            padding: 0;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .text-terracotta {
+            color: var(--color-terracotta);
+        }
+
+        .bg-terracotta {
+            background-color: var(--color-terracotta);
+        }
+
+        .bg-forest {
+            background-color: var(--color-forest-green);
+        }
+
+        nav {
+            height: var(--nav-height);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            display: flex;
+            align-items: center;
+        }
+
+        nav.scrolled {
+            height: var(--nav-height-scrolled);
+            background-color: var(--color-cream);
+            box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.1);
+            border-bottom: 1px solid rgba(45, 58, 48, 0.05);
+        }
+
+        .link-underline {
+            position: relative;
+            display: inline-block;
+        }
+
+        .link-underline::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            transform: scaleX(0);
+            height: 1px;
+            bottom: -2px;
+            left: 0;
+            background-color: currentColor;
+            transform-origin: bottom right;
+            transition: transform 0.4s ease-out;
+        }
+
+        .link-underline:hover::after {
+            transform: scaleX(1);
+            transform-origin: bottom left;
+        }
+
+        .reveal {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+        }
+
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .tech-tag {
+            padding: 4px 12px;
+            border: 1px solid rgba(45, 58, 48, 0.1);
+            border-radius: 99px;
+            font-size: 0.75rem;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+        }
+
+        section {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+<nav id="main-nav" class="fixed top-0 w-full z-50 px-6 md:px-12">
+    <div class="max-w-7xl mx-auto flex justify-between items-center w-full">
+        <a href="#" class="text-xl font-semibold tracking-tighter hover:opacity-70 transition-opacity">GP.</a>
+        <div class="space-x-8 text-sm uppercase tracking-widest hidden md:block">
+            <a href="#over" class="link-underline">Over</a>
+            <a href="#expertise" class="link-underline">Expertise</a>
+            <a href="#contact" class="link-underline">Contact</a>
+            <a href="https://www.linkedin.com/in/gilles-pelegrin/" target="_blank" class="link-underline">LinkedIn</a>
         </div>
-        <div class="job-titles">
-          <p class="main-job">Full Stack developer</p>
-          <p>Java / Javascript</p>
-          <p>Cronos</p>
-        </div>
-      </div>
-
-      <div class="motivation">
-        <h2 class="sub-title">Motivation</h2>
-        <p class="motivation-text">
-          Passionate Full Stack Web Developer dedicated to creating dynamic
-          websites through seamless collaboration and cutting-edge technology.
-          Let's connect and bring innovative web solutions to life.
-        </p>
-      </div>
-
-      <div class="picture">
-        <img src="./image/anime.jpg" alt="picture of Gilles Pelegrin" />
-      </div>
-
-      <div class="contact-information">
-        <h2 class="sub-title">Contact Information</h2>
-        <ul>
-          <li>
-            <div class="contact-info-group">
-              <div class="icon">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="16"
-                  width="16"
-                  viewBox="0 0 512 512"
-                  fill="currentColor"
-                >
-                  <path
-                    d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"
-                  />
-                </svg>
-              </div>
-              <a class="contact-info" href="mailto:webmaster@example.com"
-                >GillesPelegrin@gmail.com</a
-              >
-            </div>
-          </li>
-          <li>
-            <div class="contact-info-group">
-              <div class="icon">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="16"
-                  width="16"
-                  viewBox="0 0 512 512"
-                  fill="currentColor"
-                >
-                  <path
-                    d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"
-                  />
-                </svg>
-              </div>
-              <a class="contact-info" href="tel:32497553219"
-                >04 / 97 55 32 19</a
-              >
-            </div>
-          </li>
-          <li>
-            <div class="contact-info-group">
-              <div class="icon">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="16"
-                  width="14"
-                  viewBox="0 0 448 512"
-                  fill="currentColor"
-                >
-                  <path
-                    d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z"
-                  />
-                </svg>
-              </div>
-              <a
-                class="contact-info"
-                href="https://www.linkedin.com/in/gilles-pelegrin-gp95?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                >www.linkedin.com/in/gilles-pelegrin</a
-              >
-            </div>
-          </li>
-          <li>
-            <div class="contact-info-group">
-              <div class="icon">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="16"
-                  width="15.5"
-                  viewBox="0 0 496 512"
-                  fill="currentColor"
-                >
-                  <path
-                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
-                  />
-                </svg>
-              </div>
-              <a class="contact-info" href="https://github.com/GillesPelegrin"
-                >https://github.com/GillesPelegrin</a
-              >
-            </div>
-          </li>
-        </ul>
-      </div>
     </div>
-  </body>
+</nav>
+
+<section class="min-h-screen flex flex-col justify-center px-6 md:px-12 pt-20">
+    <div class="max-w-7xl mx-auto w-full">
+        <div class="max-w-4xl">
+            <p class="text-terracotta font-semibold uppercase tracking-[0.2em] mb-4 text-sm reveal">Full Stack Java
+                Developer</p>
+            <h1 class="text-6xl md:text-9xl leading-tight mb-8 reveal" style="transition-delay: 200ms;">
+                Gilles <br> <span class="italic">Pelegrin</span>
+            </h1>
+            <p class="text-xl md:text-2xl font-light max-w-2xl leading-relaxed reveal" style="transition-delay: 400ms;">
+                Gespecialiseerd in robuuste software-architectuur met een brede kijk op complexe systemen.
+            </p>
+            <div class="mt-12 reveal flex flex-wrap gap-3" style="transition-delay: 600ms;">
+                <span class="tech-tag">Spring Boot</span>
+                <span class="tech-tag">Angular</span>
+                <span class="tech-tag">Kubernetes</span>
+                <span class="tech-tag">Azure</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="over" class="py-32 md:py-48 px-6 md:px-12 bg-forest text-white">
+    <div class="max-w-7xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-12 items-start">
+            <div class="md:col-span-5 reveal">
+                <h2 class="text-4xl md:text-6xl mb-8 leading-tight">Visie op <br><span
+                        class="italic">Architectuur</span></h2>
+                <div class="h-1 w-20 bg-terracotta mb-8"></div>
+            </div>
+            <div class="md:col-span-7 reveal" style="transition-delay: 200ms;">
+                <p class="text-lg md:text-xl leading-loose font-light opacity-90 mb-8">
+                    Mijn kracht ligt in het overzien van het grotere geheel. Ik zie niet alleen de code, maar begrijp
+                    hoe complexe systemen en ketens op grote schaal met elkaar verbonden zijn. Door mijn abstract
+                    denkvermogen doorzie ik snel de impact van wijzigingen op de totale architectuur.
+                </p>
+                <p class="text-lg md:text-xl leading-loose font-light opacity-90">
+                    Ik geloof niet in onnodige complexiteit. Mijn aanpak is strikt pragmatisch: iteratief werken naar
+                    een beheersbaar, stabiel en waardevol einddoel voor de business.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="expertise" class="py-32 md:py-48 px-6 md:px-12 bg-white">
+    <div class="max-w-7xl mx-auto">
+        <div class="mb-20 reveal">
+            <h2 class="text-4xl md:text-5xl mb-4 leading-tight">Expertise & Focus</h2>
+            <p class="text-forest/60 uppercase tracking-widest text-xs">Wat ik meebreng naar elk project</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
+            <div class="reveal p-10 border border-forest/5 hover:border-terracotta transition-all duration-500 bg-white">
+                <i data-lucide="layers" class="text-terracotta w-10 h-10 mb-8"></i>
+                <h3 class="text-2xl mb-4">Architectuur</h3>
+                <p class="font-light opacity-70 italic leading-relaxed">Ontwerpen van schaalbare Java-ecosystemen met
+                    Domain Driven Design (DDD) en een sterke focus op security by design.</p>
+            </div>
+            <div class="reveal p-10 border border-forest/5 hover:border-terracotta transition-all duration-500 bg-white"
+                 style="transition-delay: 150ms;">
+                <i data-lucide="cloud" class="text-terracotta w-10 h-10 mb-8"></i>
+                <h3 class="text-2xl mb-4">Cloud Native</h3>
+                <p class="font-light opacity-70 italic leading-relaxed">Ervaring met Azure Kubernetes Service (AKS),
+                    Docker containerisatie en geautomatiseerde CI/CD pipelines (ArgoCD/Jenkins).</p>
+            </div>
+            <div class="reveal p-10 border border-forest/5 hover:border-terracotta transition-all duration-500 bg-white"
+                 style="transition-delay: 300ms;">
+                <i data-lucide="code-2" class="text-terracotta w-10 h-10 mb-8"></i>
+                <h3 class="text-2xl mb-4">Full Stack</h3>
+                <p class="font-light opacity-70 italic leading-relaxed">Van krachtige Spring Boot backends tot
+                    dynamische Angular frontends, altijd met een pragmatische en test-driven (TDD) mentaliteit.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-32 md:py-48 px-6 md:px-12 bg-cream border-t border-forest/5">
+    <div class="max-w-7xl mx-auto reveal">
+        <h2 class="text-3xl md:text-5xl mb-20 italic text-center">Recente Projecten</h2>
+        <div class="max-w-4xl mx-auto space-y-12 text-left">
+            <div class="flex flex-col md:flex-row justify-between items-start border-b border-forest/10 pb-10">
+                <div class="mb-4 md:mb-0">
+                    <h4 class="text-2xl font-semibold">Co-Prev | SEED-Connect</h4>
+                    <p class="text-sm opacity-60 italic mt-1 uppercase tracking-wider">Senior Full Stack Developer</p>
+                </div>
+                <p class="text-base md:text-lg font-light max-w-md italic opacity-80 leading-relaxed">Migratie van
+                    legacy OSGi naar Spring Boot & Angular met ForgeRock OAuth integratie.</p>
+            </div>
+            <div class="flex flex-col md:flex-row justify-between items-start border-b border-forest/10 pb-10">
+                <div class="mb-4 md:mb-0">
+                    <h4 class="text-2xl font-semibold">ENGIE - GEM</h4>
+                    <p class="text-sm opacity-60 italic mt-1 uppercase tracking-wider">Java Developer</p>
+                </div>
+                <p class="text-base md:text-lg font-light max-w-md italic opacity-80 leading-relaxed">Modernisering naar
+                    Azure Kubernetes (AKS) en automatisering via Custom Kubernetes Operators.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="py-32 md:py-48 px-6 md:px-12 flex justify-center text-center bg-white">
+    <div class="max-w-7xl mx-auto w-full">
+        <div class="max-w-3xl mx-auto reveal">
+            <h2 class="text-5xl md:text-7xl mb-8 italic">Contacteer mij</h2>
+            <p class="text-xl mb-16 font-light italic leading-relaxed">Klaar voor een professionele dialoog over
+                software-architectuur of complexe migraties? Ik hoor graag van je.</p>
+
+            <div class="flex flex-col md:flex-row gap-8 justify-center items-center">
+                <a href="https://www.linkedin.com/in/gilles-pelegrin/" target="_blank"
+                   class="group flex items-center gap-4 text-2xl font-semibold transition-all">
+                    <i data-lucide="linkedin" class="w-8 h-8 group-hover:text-terracotta transition-colors"></i>
+                    <span class="group-hover:text-terracotta transition-colors">LinkedIn Profiel</span>
+                </a>
+                <span class="hidden md:block opacity-20 text-4xl font-thin">|</span>
+                <a href="mailto:info@gillespelegrin.com"
+                   class="group flex items-center gap-4 text-2xl font-semibold transition-all">
+                    <i data-lucide="mail" class="w-8 h-8 group-hover:text-terracotta transition-colors"></i>
+                    <span class="group-hover:text-terracotta transition-colors">E-mail</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="py-16 px-6 bg-cream border-t border-forest/10">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center text-xs uppercase tracking-widest opacity-60 w-full text-center md:text-left space-y-4 md:space-y-0">
+        <p>&copy; <span id="year"></span> Gilles Pelegrin</p>
+        <div class="hidden md:block h-[1px] w-12 bg-forest/20"></div>
+        <p class="italic">Betrouwbaar • Doelgericht • Integer</p>
+    </div>
+</footer>
+
+<script>
+    lucide.createIcons();
+
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Navigation Scroll Effect
+    const nav = document.getElementById('main-nav');
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 40) {
+            nav.classList.add('scrolled');
+        } else {
+            nav.classList.remove('scrolled');
+        }
+    });
+
+    const observerOptions = {
+        threshold: 0.15,
+        rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('active');
+            }
+        });
+    }, observerOptions);
+
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+    window.addEventListener('load', () => {
+        document.querySelectorAll('.reveal').forEach((el, index) => {
+            const rect = el.getBoundingClientRect();
+            if (rect.top < window.innerHeight) {
+                setTimeout(() => el.classList.add('active'), index * 100);
+            }
+        });
+    });
+</script>
+</body>
 </html>
